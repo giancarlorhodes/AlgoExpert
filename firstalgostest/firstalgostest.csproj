@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DoublyLinkedList\DoublyLinkedList.csproj" />
     <ProjectReference Include="..\firstalgos\firstalgos.csproj" />
+    <ProjectReference Include="..\SingleLinkedList\SingleLinkedList.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "firstalgos", "firstalgos\fi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "firstalgostest", "firstalgostest\firstalgostest.csproj", "{390DE4CF-E9C5-4EF5-9926-C1274AF2EAAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleLinkedList", "SingleLinkedList\SingleLinkedList.csproj", "{08FC35D8-E3E2-4C8A-8E26-ACB2FF8668A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleLinkedList", "SingleLinkedList\SingleLinkedList.csproj", "{08FC35D8-E3E2-4C8A-8E26-ACB2FF8668A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublyLinkedList", "DoublyLinkedList\DoublyLinkedList.csproj", "{98BA1AA2-7771-46B7-BCE7-A1EDF201632F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{08FC35D8-E3E2-4C8A-8E26-ACB2FF8668A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08FC35D8-E3E2-4C8A-8E26-ACB2FF8668A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08FC35D8-E3E2-4C8A-8E26-ACB2FF8668A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98BA1AA2-7771-46B7-BCE7-A1EDF201632F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BA1AA2-7771-46B7-BCE7-A1EDF201632F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BA1AA2-7771-46B7-BCE7-A1EDF201632F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BA1AA2-7771-46B7-BCE7-A1EDF201632F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
