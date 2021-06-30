@@ -12,11 +12,12 @@ namespace firstalgostest
     {
 
         private SinglyLinkedList<int> _singlyLinkedListIntegers;
+        private SinglyLinkedList<Car> _anotherList;
 
         public UnitTestSinglyLinkedList()
         {
-
             _singlyLinkedListIntegers = new SinglyLinkedList<int>();
+            _anotherList = new SinglyLinkedList<Car>();
         }
 
         [TestMethod]
@@ -36,5 +37,49 @@ namespace firstalgostest
             Assert.AreEqual(_expected, _singlyLinkedListIntegers.Count);
         
         }
+
+        [TestMethod]
+        public void add_two_cars_and_count()
+        {
+            // arrange
+            _anotherList.AddHead(new Car { Make = "Toyota", Model = "4Runner" });
+            _anotherList.AddTail(new Car { Make = "Toyota", Model = "Camry" });
+            int _expected = 2;
+            int _actual;
+
+            // act
+            _actual = _anotherList.Count;
+
+            // assert
+            Assert.AreEqual(_expected, _actual);
+        
+        }
+
+
+        [TestMethod]
+        public void add_two_cars_and_head_should_be_4runner()
+        {
+            // arrange
+            _anotherList.AddHead(new Car { Make = "Toyota", Model = "4Runner" });
+            _anotherList.AddTail(new Car { Make = "Toyota", Model = "Camry" });
+            string _headModel = "4Runner";
+            SinglyLinkedNode<Car> _actual = _anotherList.Head;
+
+            // act
+            
+            // assert
+            Assert.AreEqual(_headModel, _actual.Value.Model);
+
+        }
+
+
+        private class Car
+        { 
+            public string Make { get; set; }
+            public string Model { get; set; }
+        
+        }
+
+       
     }
 }
