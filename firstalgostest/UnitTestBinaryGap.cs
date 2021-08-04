@@ -8,22 +8,58 @@ namespace firstalgostest
     public class UnitTestBinaryGap
     {
         private Solution1 _s;
+        private MySolution _m;
         
         public UnitTestBinaryGap() 
         {
             _s = new Solution1();
+            _m = new MySolution();
         }
 
-        [TestMethod]
-        public void pass_in_4_should_return_0()
-        {
 
+        [TestMethod]
+        public void pass_in_0_should_return_0()
+        {
+            // 4 = 0100
             // arrange
             int expected = 0;
             int actual;
 
             // act
-            actual = _s.BinaryGapAnswerOne(4);
+            actual = _s.BinaryGapConvert(0);
+
+            // assert
+            Assert.AreEqual(expected, actual);
+
+        }
+
+        [TestMethod]
+        public void pass_in_0_should_return_0_MySolution()
+        {
+            // 4 = 0100
+            // arrange
+            int expected = 0;
+            int actual;
+
+            // act
+            actual = _m.BinaryGapConvert(0);
+
+            // assert
+            Assert.AreEqual(expected, actual);
+
+        }
+
+
+        [TestMethod]
+        public void pass_in_4_should_return_0()
+        {
+             // 4 = 0100
+            // arrange
+            int expected = 0;
+            int actual;
+
+            // act
+            actual = _s.BinaryGapConvert(4);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -42,7 +78,7 @@ namespace firstalgostest
             int actual;
 
             // act
-            actual = _s.BinaryGapAnswerOne(value);
+            actual = _s.BinaryGapConvert(value);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -60,7 +96,24 @@ namespace firstalgostest
             int actual;
 
             // act
-            actual = _s.BinaryGapAnswerOne(value);
+            actual = _s.BinaryGapConvert(value);
+
+            // assert
+            Assert.AreEqual(expected, actual);
+
+        }
+
+        [TestMethod]
+        public void pass_in_9_should_return_2()
+        {
+
+            // arrange
+            int value = 9; // 1001
+            int expected = 2;
+            int actual;
+
+            // act
+            actual = _s.BinaryGapConvert(value);
 
             // assert
             Assert.AreEqual(expected, actual);

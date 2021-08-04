@@ -34,7 +34,7 @@ namespace BinaryGap
     {
         public Solution1() { }
 
-        public int BinaryGapAnswerOne(int value) 
+        public int BinaryGapConvert(int value) 
         {
             return Convert
            // convert to binary
