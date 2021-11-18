@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleLinkedList", "SingleL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoublyLinkedList", "DoublyLinkedList\DoublyLinkedList.csproj", "{98BA1AA2-7771-46B7-BCE7-A1EDF201632F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryGap", "BinaryGap\BinaryGap.csproj", "{F7C79BBA-FA92-41D1-BBDA-8712ECC28401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryGap", "BinaryGap\BinaryGap.csproj", "{F7C79BBA-FA92-41D1-BBDA-8712ECC28401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertAllArrays", "ConvertAllArrays\ConvertAllArrays.csproj", "{E4085A6D-35B2-42DC-811E-1D32F1679F22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F7C79BBA-FA92-41D1-BBDA-8712ECC28401}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C79BBA-FA92-41D1-BBDA-8712ECC28401}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C79BBA-FA92-41D1-BBDA-8712ECC28401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4085A6D-35B2-42DC-811E-1D32F1679F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4085A6D-35B2-42DC-811E-1D32F1679F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4085A6D-35B2-42DC-811E-1D32F1679F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4085A6D-35B2-42DC-811E-1D32F1679F22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
