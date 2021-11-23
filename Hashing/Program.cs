@@ -34,7 +34,7 @@ namespace Hashing
                
 
                 string _hashed = Hash.sha256_hash("ac5fb2db - b0ea - 48f3 - 8e9d - e6c20fbb69fb");
-                Console.WriteLine("Guid is " + "ac5fb2db-b0ea-48f3-8e9d-e6c20fbb69fb, Hash is "
+                Console.WriteLine("Guid is " + ", Hash is "
                     + _hashed.ToString());
 
             }
