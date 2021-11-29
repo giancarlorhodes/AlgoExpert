@@ -39,11 +39,11 @@ namespace Sorting
             }
             Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
 
-            BubbleSort _bsMedium = new BubbleSort(_size_medium);
-            watch = System.Diagnostics.Stopwatch.StartNew();
-            _bsMedium.Sort(SortBy.Descending);
-            watch.Stop();
-            Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
+            //BubbleSort _bsMedium = new BubbleSort(_size_medium);
+            //watch = System.Diagnostics.Stopwatch.StartNew();
+            //_bsMedium.Sort(SortBy.Descending);
+            //watch.Stop();
+            //Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
 
 
 

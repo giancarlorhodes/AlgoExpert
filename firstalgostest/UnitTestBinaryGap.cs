@@ -7,13 +7,13 @@ namespace firstalgostest
     [TestClass]
     public class UnitTestBinaryGap
     {
-        private Solution1 _s;
-        private MySolution _m;
+        private Gap _s;
+        private SimplerGap _m;
         
         public UnitTestBinaryGap() 
         {
-            _s = new Solution1();
-            _m = new MySolution();
+            _s = new Gap();
+            _m = new SimplerGap();
         }
 
 

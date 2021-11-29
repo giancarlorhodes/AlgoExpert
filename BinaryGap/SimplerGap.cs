@@ -15,9 +15,9 @@ namespace BinaryGap
     // The number 15 has binary representation 1111 and has no binary gaps.The number
     // 32 has binary representation 100000 and has no binary gaps.
 
-    public class MySolution
+    public class SimplerGap
     {
-        public MySolution() { }
+        public SimplerGap() { }
 
         public int BinaryGapConvert(int value)
         {

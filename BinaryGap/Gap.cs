@@ -30,9 +30,9 @@ namespace BinaryGap
 
     //    N is an integer within the range[1..2, 147, 483, 647].
 
-    public class Solution1
+    public class Gap
     {
-        public Solution1() { }
+        public Gap() { }
 
         public int BinaryGapConvert(int value) 
         {
